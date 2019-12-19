@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#copy file from host machine to virtual machine
+
+scp -i PRIVATE_KEY_FILE -P PORTNUM program.example.php root@VMIPADDRESS:/var/lib/.../
+
